@@ -1,8 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "HotelSystem.h"
+#include <iostream>
+using namespace std;
 
-int main()
-{
-    printf("Hello world!\n");
+int main() {
+    try {
+        HotelSystem hotelSystem;
+        hotelSystem.initializeSystem();
+        hotelSystem.runSystem();
+    } catch (const exception& e) {
+        cerr << "An error occurred: " << e.what() << endl;
+        return 1;
+    }
+
     return 0;
 }
