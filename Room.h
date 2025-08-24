@@ -24,11 +24,11 @@ private:
     double price;
     RoomStatus status;
     string customerName;
-
+    
 public:
     Room();
     Room(int number, RoomCategory cat, double pr);
-
+    
     // Getters
     int getRoomNumber() const;
     RoomCategory getCategory() const;
@@ -37,17 +37,17 @@ public:
     string getCustomerName() const;
     string getCategoryString() const;
     string getStatusString() const;
-
+    
     // Setters
     void setStatus(RoomStatus st);
     void setCustomerName(string name);
     void setPrice(double pr);
-
+    
     // Room operations
     bool bookRoom(string customerName);
     void checkoutRoom();
     void cleanRoom();
-
+    
     // File operations
     string toFileString() const;
     void fromFileString(const string& data);

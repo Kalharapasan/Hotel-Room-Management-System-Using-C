@@ -15,28 +15,28 @@ private:
     HotelManager manager;
     vector<Room> rooms;
     vector<Customer> customers;
-
+    
 public:
     HotelSystem();
     ~HotelSystem();
-
+    
     // System initialization
     void initializeSystem();
     void loadData();
     void saveData();
-
+    
     // Main menu and navigation
     void displayMainMenu();
     void runSystem();
-
+    
     // User role menus
     void handleOwnerOperations();
     void handleManagerOperations();
     void handleCustomerOperations();
-
+    
     // Authentication
     bool authenticateUser(int userType);
-
+    
     // Utility functions
     void displayWelcomeMessage();
     void displayGoodbyeMessage();
