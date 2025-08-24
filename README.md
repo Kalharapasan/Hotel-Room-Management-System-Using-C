@@ -103,7 +103,7 @@ make debug
 
 #### Manual Compilation:
 ```bash
-g++ -std=c++17 -Wall -Wextra -O2 -o hotel_system main.cpp Room.cpp Customer.cpp HotelOwner.cpp HotelManager.cpp FileManager.cpp HotelSystem.cpp
+g++ -std=c++17 -Wall -Wextra -O2 -o hotel_system main.c Room.c Customer.c HotelOwner.c HotelManager.c FileManager.c HotelSystem.c
 ```
 
 #### Run the Program:
@@ -134,17 +134,17 @@ g++ -std=c++17 -Wall -Wextra -O2 -o hotel_system main.cpp Room.cpp Customer.cpp 
 
 ```
 hotel-management-system/
-├── main.cpp                 # Main entry point
-├── Room.h/.cpp             # Room management
-├── Customer.h/.cpp         # Customer operations
-├── HotelOwner.h/.cpp       # Owner functionality
-├── HotelManager.h/.cpp     # Manager operations
-├── FileManager.h/.cpp      # File I/O operations
-├── HotelSystem.h/.cpp      # Main system controller
-├── Makefile                # Build configuration
-├── README.md               # This file
-├── rooms.txt              # Room data (created at runtime)
-└── customers.txt          # Customer data (created at runtime)
+├── main.c                   # Main entry point
+├── Room.h/.c                # Room management
+├── Customer.h/.c            # Customer operations
+├── HotelOwner.h/.c          # Owner functionality
+├── HotelManager.h/.c        # Manager operations
+├── FileManager.h/.c         # File I/O operations
+├── HotelSystem.h/.c         # Main system controller
+├── Makefile                 # Build configuration
+├── README.md                # This file
+├── rooms.txt                # Room data (created at runtime)
+└── customers.txt            # Customer data (created at runtime)
 ```
 
 ## Features Highlights
