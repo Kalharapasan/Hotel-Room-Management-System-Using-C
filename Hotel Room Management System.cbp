@@ -32,6 +32,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Customer.cpp" />
+		<Unit filename="Customer.h" />
+		<Unit filename="FileManager.cpp" />
+		<Unit filename="FileManager.h" />
+		<Unit filename="HotelManager.cpp" />
+		<Unit filename="HotelManager.h" />
+		<Unit filename="HotelOwner.cpp" />
+		<Unit filename="HotelOwner.h" />
+		<Unit filename="HotelSystem.cpp" />
+		<Unit filename="HotelSystem.h" />
+		<Unit filename="Room.cpp" />
+		<Unit filename="Room.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
